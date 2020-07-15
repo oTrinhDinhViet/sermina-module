@@ -12,7 +12,6 @@ import {TeacherService} from "./teacher.service";
   declarations: [ClassComponent, ClassListComponent, ClassDetailComponent],
   imports: [
     CommonModule,
-    TeacherRouting
   ],
   providers: [
     TeacherService

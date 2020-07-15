@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { StudentListComponent } from './student-list/student-list.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import {StudentRouting} from "./student.routing";
+import {StudentService} from "./student.service";
 
 
 
@@ -10,7 +11,9 @@ import {StudentRouting} from "./student.routing";
   declarations: [StudentListComponent, StudentDetailComponent],
   imports: [
     CommonModule,
-    StudentRouting
+  ],
+  providers: [
+    StudentService
   ]
 })
 export class StudentModule { }

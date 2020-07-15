@@ -9,7 +9,7 @@ import {AdminService} from "../../admin/admin.service";
 export class StudentListComponent implements OnInit {
 
   constructor(
-    // public adminService: AdminService
+    public adminService: AdminService
   ) { }
 
   ngOnInit(): void {

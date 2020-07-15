@@ -9,7 +9,6 @@ import {StudentService} from "../../student/student.service";
 export class ClassComponent implements OnInit {
 
   constructor(
-    // public studentService: StudentService
   ) { }
 
   ngOnInit(): void {
